@@ -1,0 +1,221 @@
+body{
+    background-color: #6A1B4D;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+/*------------------------
+ Heading part all style
+ ------------------------ */
+ .heading-container{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color:rgba(250, 105, 20, 0.876);
+}
+.heading-text{
+    flex-basis: 40%;
+    position:relative;
+}
+.heading-text h1{
+    font-size:60px;
+    color:white;
+    margin-left: 30px;
+}
+button{
+    width:140px;
+    border: 0;
+    padding:12px 10px;
+    margin-left: 50px;
+    outline: none;
+    color:white;
+    background-color:rgb(161, 11, 49);
+    border-radius:6px;
+    cursor: pointer;
+    transition: width 0.5s;
+}
+button img{
+    width:30px;
+    display: none;
+}
+button:hover img{
+    display: block;
+}
+button:hover{
+    width:160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.heading-img{
+    position: relative;
+    flex-basis: 50%;
+    display: flex;
+    align-items: center;
+}
+.logo-img{
+    width: 100%;
+    
+}
+
+
+/*------------------------
+ Player card part all style
+ ------------------------ */
+.card-heading{
+    color: white;
+    text-align: center;
+    margin-top:100px;
+    font-size:60px;
+}
+
+ .row {
+    width:80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.player-card{
+    background-color:none;
+    width: 250px;
+    height: 320px;
+    margin:20px 10px 10px 10px;
+    border:1px solid rgba(255, 75, 20, 0.876);  
+}
+.player-card:hover{
+    box-shadow: 0 6px 8px  rgba(255, 75, 20, 0.876);
+    background-color:white;
+    
+
+}
+.card-content{
+    padding:15px;
+}
+.player-card-img{
+    width: 200px;
+    height: 160px;
+    margin-left: 10px;
+   
+}
+.player-card-text{
+    text-align: center;
+    color:rgba(250, 59, 1, 0.911);
+
+}
+.player-card-text p{
+    font-size: 12px;
+}
+
+
+
+/* ------------------------
+  Extra part-1 all style 
+--------------------------- */
+.ticket-clock{
+    padding: 50px 100px;
+    display: flex;
+}
+@media only screen and (max-width:688px) {
+    .ticket-clock{
+        display: grid;
+        padding:0 1px;
+        margin-left:auto;
+    }   
+}
+
+.photo-card{
+    width:500px;
+    height: 287px;
+    border: 5px solid rgba(255, 75, 20, 0.876);
+    position: relative;
+    margin: 20px;
+}
+ 
+.photo-card:hover .photo-text{
+    display: block;
+}
+.photo img{
+    width: 100%;
+}
+
+.photo-text{
+    display: none;
+    position: absolute;
+    width: 500px;
+    height: 287px;
+    top: 0;
+    color:white;
+    justify-content: center;
+    align-items: center;
+    background-color:#ff4b14b9;
+}
+.photo-text h2{
+    text-align: center;
+}
+.photo-text p{
+    text-align: center;
+    padding: 5px;
+}
+
+
+/* ------------------------
+  Extra part-2 all style 
+--------------------------- */
+td, th{
+    border: 3px solid rgb(255, 75, 20);
+    padding: 10px;
+    color: rgb(117, 9, 85);
+    background-color:white;
+    font-weight: bold;    
+    
+}
+table{
+    border-collapse: collapse;
+    width:1000px;
+    height:400px;
+    align-items: center;
+    margin-left: 170px;
+}
+
+tbody{
+    text-align: center;
+}
+ @media only screen and (max-width:688px){
+    table{
+        border-collapse: collapse;
+        width:100px;
+        height:400px;
+        align-items: center;
+        margin-left: 110px;
+    }       
+     
+ }
+
+ /*------------------------
+ Footer all style
+ ------------------------ */
+ footer{
+    background-color:rgba(255, 75, 20, 0.876);
+    margin-top:100px;
+    text-align:center;
+    padding: 20px;
+}
+
+#footer-logo{
+   width: 250px;
+   padding: 10px;
+}
+
+footer img{
+   width:40px;
+   
+}
+footer p{
+   font-size:20px;
+   color:white;
+}
+
